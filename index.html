@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angular One Basic</title>
+    <!-- Angular1 Module -->
+    <script src="/node_modules/angular/angular.js"></script>
+    <!-- Server.js includes the angular controller -->
+    <script src="/angcontroller.js"></script>
+
+</head>
+
+<body>
+    <div ng-app="angOne" ng-controller="angCtrl">
+      username <input type="text" ng-model="firstname">
+      password <input type="password" ng-model="password">
+      <button type="button" class="btn btn-primary" ng-click="login()">Login</button>
+    </div>
+</body>
+
+</html>
